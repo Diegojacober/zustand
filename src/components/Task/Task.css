@@ -1,0 +1,56 @@
+.task {
+    background: #FFF;
+    border-radius: 4px;
+    min-height: 5rem;
+    color: #000;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    cursor: move;
+}
+
+.bottomWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status {
+    font-size: small;
+    background-color: var(--COLOR-GRAY-LIGHT);
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+
+.titleWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleWrapper button {
+    all: unset;
+    color: #000;
+    background: #FFF;
+    padding: 0.5rem;
+    border-radius: 4px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.titleWrapper button:hover {
+    background: var(--COLOR-GRAY-LIGHT);
+}
+
+.PLANNED {
+    background-color: var(--COLOR-GRAY-LIGHT);
+}
+
+.ONGOING{
+    background-color: var(--COLOR-ONGOING);
+}
+
+.DONE {
+    background-color: var(--COLOR-DONE);
+}

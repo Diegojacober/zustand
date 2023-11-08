@@ -1,0 +1,38 @@
+.column {
+    background: var(--COLOR-GRAY-DARK);
+    min-height: 20rem;
+    color: #FFF;
+    width: 33%;
+    max-width: 20rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+    border: dashed transparent 4px;
+}
+
+.column.drop {
+    border-color: white;
+}
+
+.modal {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.modalContent {
+    background: #FFF;
+    position: absolute;
+    z-index: 1;
+    padding: 1rem;
+    top: 50%;
+    left: 50%;
+    height: 5rem;
+    width: 20rem;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 4px;
+}
