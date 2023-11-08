@@ -1,0 +1,2 @@
+- Sessão de produtos disponiveis
+- sessão do carrinho de compras
